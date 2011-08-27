@@ -2,7 +2,7 @@ Provides a WP Plugin interface for the most common features of Seaofclouds jQuer
 
 Install
 
-Plugings->Add New->Upload, Point to zip file and click upload. 
+Plugins->Add New->Upload, Point to zip file and click upload. 
 
 Configure, Settings->Tweet!, Add tweetfeeds using the form below, and delete using the red X's next to existing feeds at the top.
 
