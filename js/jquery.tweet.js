@@ -165,9 +165,9 @@
         t('<a class="tweet_avatar" href="{user_url}"><img src="{avatar_url}" height="{avatar_size}" width="{avatar_size}" alt="{screen_name}\'s avatar" title="{screen_name}\'s avatar" border="0"/></a>', o) : '';
       o.time = t('<span class="tweet_time"><a href="{tweet_url}" title="view tweet on twitter">{tweet_relative_time}</a></span>', o);
       o.text = t('<span class="tweet_text">{tweet_text_fancy}</span>', o);
-      o.reply_action = t('<a class="tweet_action tweet_reply" href="{reply_url}">reply</a>', o);
-      o.retweet_action = t('<a class="tweet_action tweet_retweet" href="{retweet_url}">retweet</a>', o);
-      o.favorite_action = t('<a class="tweet_action tweet_favorite" href="{favorite_url}">favorite</a>', o);
+      o.reply_action = t('<a class="tweet_action tweet_reply" style="cursor:pointer;" onclick="window.open(\'{reply_url}\',\'Reply\',\'menubar=0,resizable=0,width=600,height=340,top=200,left=400\')">reply</a>', o);
+      o.retweet_action = t('<a class="tweet_action tweet_retweet" style="cursor:pointer;" onclick="window.open(\'{retweet_url}\',\'Retweet\',\'menubar=0,resizable=0,width=600,height=230,top=200,left=400\')">retweet</a>', o);
+      o.favorite_action = t('<a class="tweet_action tweet_favorite" style="cursor:pointer;" onclick="window.open(\'{favorite_url}\',\'Retweet\',\'menubar=0,resizable=0,width=600,height=230,top=200,left=400\')">favorite</a>', o);
       return o;
     }
 
