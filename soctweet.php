@@ -4,7 +4,7 @@
  Plugin URI: http://www.workinginboxershorts.com/
  Description: Port of the <a href="http://tweet.seaofclouds.com/">seaofclouds jQuery plugin</a> to WordPress. Easily add twitter feeds via widgets and shortcodes. Show tweets that match a search term, tweets from a specific user, or tweets from a twitter list.
  Author: Brian Zeligson
- Version: 1
+ Version: 1.01
  Author URI: http://www.workinginboxershorts.com
 
  ==
