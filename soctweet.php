@@ -50,7 +50,7 @@ function soctweet_admin_styles() {
        wp_enqueue_style( 'soctweet_admin_style' );
 	   wp_enqueue_style( 'soctweet_jqui_style');
    }
-if (isset($_GET['page']) and $_GET['page'] == 'soctweet/soctweet.php') :
+if (isset($_GET['page']) and substr($_GET['page'], -12) == 'soctweet.php') :
 add_action('admin_head', 'soctweet_admin_javascript');
 add_action('admin_enqueue_scripts', 'soctweet_enqueue_admin_deps');
 
